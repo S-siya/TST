@@ -1,0 +1,131 @@
+body {
+    background-color:  #F1F2EB;
+}
+#Nav li{
+    display: inline-block;
+    margin-left:50px;
+}
+#Nav a{
+    color: black;
+    text-decoration:none;
+}
+nav{
+    margin-left: 410px;
+   height: 30px;
+
+}
+#Nav {
+    border:2px solid ;
+}
+#Nav img{
+    width:100px;
+    height:100px;
+}
+.IntroRow {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    height:500px;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.introColumn{
+    flex-basis: 50px;
+    min-width: 300px;
+}
+.introColumn h1{
+    font-size:40px;
+    background-color: #F1F2EB;
+    border: 2px solid;
+  
+}
+.introColumn p{
+    font-size:20px;
+    background-color: #F1F2EB;
+    border:2px solid;
+}
+.introColumn img{
+    width:250px;
+    height: 200px;
+    margin-top: -50px;
+}
+#imgRow {
+    background-image: url("IMAGES/S.background.webp");
+    background-size: cover;
+    
+}
+.featured_row {
+    text-align: center;
+    display:flex;
+    justify-content:space-evenly ;
+}
+.featured_row img{
+    width:220px;
+    height:240px;
+    border-radius:10px;
+}
+.column {
+    text-align: center;
+}
+#Featured h1{
+    text-align: center;
+    font-size:30px;
+}
+.latest_row img{
+    width:210px;
+    height:230px;
+    border-radius:10px;
+}
+.latest_row {
+    text-align: center;
+    display:flex;
+    justify-content:space-evenly ;
+}
+#New_arrivals {
+    background-color:paleturquoise;
+    outline: auto;
+   
+}#New_arrivals h1{
+    text-align: center;
+    padding-top: 45px;
+    font-size:30px;
+}
+#New_arrivals p{
+    font-weight: 40px;
+}
+.New_arrivals_row{
+    display:flex;
+    justify-content:space-evenly;
+}
+.Click_here img{
+    width:150px;
+    height:100px;
+    margin-left:1000px;
+}
+#Footer{
+    background-color:azure;
+    border:10cm;
+    border-color: blueviolet;
+}
+.Footer_row {
+    display:flex;
+}
+.Footer_column1 img{
+    width: 220px;
+    height:200px;
+}
+
+.Footer_column2 img{
+    width: 200px;
+    height:200px;
+}
+
+.Footer_column3 img{
+    width: 270px;
+    height:200px;
+}
+#Featured h2{
+    text-align: center;
+
+}
